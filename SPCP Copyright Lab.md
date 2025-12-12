@@ -1,0 +1,230 @@
+##### Allen Eti
+CMSC 30350: Security, Privacy, and Consumer Protection
+Nick Feamster
+Copyright and Content Platforms
+In this assignment, we will consider how YouTube enforces copyright, examining detailed
+experimentation with the platform, including AI-generated content, and how it holds up against
+copyright laws.
+Task 1: Platform Copyright Policy Analysis
+YouTube detects copyright material through two filters. First, they have an automated system
+that is put to use in each practice. The uploaded content is scanned against a large database of
+content that copyright owners provide to YouTube. If there’s a match, a Content ID claim is filed
+on the video. In addition, they feature a manual reporting option where copyright owners can
+manually send YouTube a DMCA removal request for content that infringes rules, leading to
+copyright strikes.
+When content is flagged as potentially infringing, this depends on which filter is violated. For
+automatic Content ID claims, the copyright owner can choose between blocking the video,
+monetizing the video, or tracking the video. However, it does not give a copyright strike in and
+of itself. On the other hand, if the copyright owner sends a formal DMCA copyright removal
+request, the video is removed, the channel gets a copyright strike, and accruing three strikes
+within 90 days results in the termination of your account.
+The appeals process is also split into two categories. If disputing a Content ID claim, you submit
+it inside YouTube Studio. The copyright owner then has 30 days to respond. They can either
+release the claim, uphold it, or request a takedown, which can turn into a strike. If your dispute is
+rejected, you can sometimes file an appeal. On the other hand, for a DMCA-removed video, you
+need to file a counter-notification, which is a formal legal request that says the takedown was a
+mistake. YouTube will then forward this, and the responsible party has 10 business days to show
+they filed a court case. If that’s not the case, YouTube will restore the video and remove the
+strike.
+With the monetization aspect, if the Content ID finds copyrighted material, the copyright owner
+can choose what happens: they can monetize the video themselves, block the video, or just track
+it for analytics. Even during a Content ID dispute, YouTube continues to collect ad revenue.
+Once the dispute is resolved, earnings go to the winner.
+Lastly, YouTube has a few different programs available for big copyright holders. The Content
+ID program is one of them. It’s eligible to big copyright owners, like labels, studios, and big
+```
+networks. They upload their reference materials and set automatic rules (block, monetize, or
+```
+```
+track). They serve as private licensing and management system on top of YouTube. In addition,
+```
+YouTube offers separate licensing deals with music publishers to pay them for music usage on
+the platform through ad revenue and subscriptions.
+Task 2: Fair Use Experiments
+I uploaded an original 15-second video trailer for the movie Zodiac, followed by another
+```
+15-second trailer where I had done a quick dub on the video (called Copyright Version and
+```
+```
+Commentary Version, respectively).
+```
+The Copyright Version was immediately detected to be copyrighted while it was still uploading,
+```
+which is in line with YouTube’s Content ID claims (see “Copyright” tag); however, the
+```
+Commentary Version never received a copyright
+warning even after upload.
+With the Copyright Version, it did not result in a
+copyright strike, but it did say it might affect my
+ability to monetize the video. The outcome was that both videos remained up, while only one of
+them was able to retain monetization. The audio and content remained up and visible for both
+videos, though. The options presented to me were under the “Take Action” tab and allowed me
+to dispute the claim, saying: “Dispute a claim if
+you have the necessary rights to the content, or
+other valid reasons. It takes up to 30 days for a
+final resolution from the claimant. Your
+channel won’t receive a strike if your dispute
+gets rejected. Learn more.”
+Task 3: AI-Generated Content Investigation
+These were the three AI prompts that I used in order of most copyright-infringing to most
+original. All images provided were generated using the DALL-E AI tool.
+```
+Prompt: Create a realistic image of SpongeBob SquarePants standing in a modern city street
+```
+The AI-generated output that I received was: “I can't create or depict copyrighted characters like
+SpongeBob SquarePants in realistic images. However, I can create an image of a cartoonish
+yellow sponge character with similar features — like square pants, big eyes, and a cheerful
+expression — standing on a modern city street, as long as it's an original character and not a
+direct copy of SpongeBob. Would you like me to generate that for you? If so, you can customize
+```
+the look a bit (e.g., outfit style, time of day, weather, city type).”
+```
+So, in essence, no image was generated by DALL-E to begin with because it violated the
+platform’s copyright content policy.
+```
+Prompt: Create an animated landscape of a quiet town at sunset in the style of Studio Ghibli
+```
+The AI-generated output that I received was: “I
+can’t directly replicate or generate images in
+the style of Studio Ghibli due to copyright
+restrictions. However, I can absolutely create a
+beautiful, animated-style landscape of a quiet
+town at sunset, inspired by elements commonly
+seen in Ghibli films — such as warm lighting,
+serene atmosphere, lush nature, and a cozy,
+nostalgic feel.”
+Overall, while the DALL-E platform seemed to flag it for having the ability to potentially violate
+copyright standards, it quickly redirected to another viable option that was in line with the user’s
+```
+request but didn’t violate those standards (best of both worlds). When uploaded to YouTube, it
+```
+did not generate any copyright flags or result in the removal of the video. Both images were
+uploaded successfully on the platform.
+```
+Prompt: Create an original fantasy city built into a cliffside at sunrise, no references to existing
+```
+media
+The AI-generated output that I received was:
+“Here are two original fantasy cliffside cities at
+sunrise, each capturing a magical and peaceful
+atmosphere with glowing towers, lush gardens,
+and elegant stone architecture. Let me know if
+you'd like to explore this world further —
+perhaps with characters, interior views, or a
+night version of the city.”
+This seemed to have absolutely no issues
+generating without any sort of copyright flag
+or warning. This makes it clear that the “original” content that it generates seems to be in line
+with the copyright standards they set. When uploaded to YouTube, this video also did not
+generate any copyright flags or result in the removal of the video. Both of the generated images
+were uploaded successfully to the platform.
+Most major AI tools state that the user owns the generated images as long as their usage is in line
+```
+with the platform’s rules (i.e., DALL-E). However, the company may still use the image you
+```
+generated to train and improve its existing models. It seems that most of the responsibility falls
+on the user to make sure that their outputs don’t violate copyright laws.
+Under the current US law, the AI itself is not allowed to own the copyright, and if the human is
+meaningfully involved in the creation of the image, the user is allowed to own the copyright. The
+creators of the training data do not automatically own the output. There is some legal gray area
+around output where human contribution is minimal. However, it seems there is still a lot of legal
+debate surrounding whether purely AI-generated works qualify for full copyright privileges.
+YouTube’s policy on AI-generated content seems to be that they’re okay with it as long as it
+follows community guidelines, doesn’t attempt to deceptively impersonate any real people, and
+doesn’t violate copyright law. YouTube will not, however, automatically restrict AI-generated
+images, and the enforcement in these cases is dependent on whether or not a copyright holder
+manually files a complaint against the work.
+Task 4: Legal Analysis
+Fair Use Four Factors
+```
+(A) The purpose of uploading the first clip was not transformative in any way. It was uploaded
+```
+with no additional commentary, editing, or additional meaning. It was not meant to generate
+revenue, but the fact that there was no transformation makes this piece not consistent with fair
+```
+use. (B) At the same time, the original content is a creative work, which is likely not to receive
+```
+stronger copyright protection than other works, another factor that is inconsistent with fair use.
+```
+(C) There was only a short segment used for the upload, but it was still a direct excerpt from the
+```
+original trailer with absolutely no edits. This factor is a little more gray area since it doesn’t
+```
+contain too much of the trailer, but still leans towards being against fair use. (D) The use of this
+```
+clip could substitute for viewing the original clip, especially if viewers look at the specific cut
+instead of the source content. Even minimal market harm can still constitute working against fair
+use.
+Overall, this is unlikely to qualify as fair use, which is in alignment with the platform’s decision
+to issue a copyright claim.
+```
+(A) With our second clip, the version added a short spoken commentary over the original clip.
+```
+Since the purpose was the commentary, that is favored towards fair use. The content itself was
+```
+not commercial either, which makes it lean towards fair use. (B) The underlying work is still
+```
+creative, which leans against fair use. At the same time, courts will perceive this factor less
+importantly when the use is highly transformative. Overall, it seems gray area, but leans slightly
+```
+against fair use for derivative content. (C) Only the portion that was used to support our
+```
+commentary was used, and the entire trailer was not depicted, nor was any part obscured by the
+```
+voiceover. This seems to lean in favor of fair use. (D) Viewers cannot substitute this commentary
+```
+iteration for the original work, and, in fact, it would likely result in more interest in the original
+clip. Therefore, there is no minimal market harm, which makes this weigh in favor of fair use.
+All in all, the use is likely protected under US copyright law, which is reflected by YouTube’s
+decision not to apply copyright restrictions to our Commentary Version.
+Case Law
+In Google vs. Oracle, the Supreme Court held that copying portions of code for a new,
+transformative purpose was fair use. This supports the idea that transformation is more important
+than whether or not something was copied. I hold a similar stance in my argument for the
+Commentary Version, which transforms the original clip through its commentary. In Campbell vs
+Acuff-Rose, we see that the case protects parody as fair use because it gives a new meaning and
+message. While the commentary was not parody in nature, it similarly adds new meaning
+through commentary, which is consistent with fair use findings.
+Gap Analysis
+The US law says that fair use protects commentary, criticism, education, and transformative
+usage, which is within the parameters of my second upload. YouTube’s policy states that fair use
+is allowed under copyright laws, but copyright owners can still claim content through Content
+ID. YouTube does not determine fair use in advance. They allow disputes based on fair use, but
+that does not automatically protect fair use content from being claimed. What is actually
+enforced was revealed through the raw clip being immediately restricted, which aligns with
+copyright law and policy platform. The commentary version was not restricted by YouTube’s
+automated system, so the platform evaluated fair use before prematurely enforcing.
+The only gap that seems present between what the law protects and what the platform automates
+is that YouTube prioritizes copyright enforcement over legal nuance. They would rather
+overshoot than under, and that’s revealed through content being able to be claimed, blocked, or
+demonetized unless the user actively disputes it. This reveals a conservative approach to
+copyright law altogether.
+Appendix
+Screenshots
+Link to uploaded content
+Zodiac original copyright
+Uploaded at 3:39 pm, detected immediately
+```
+Link: https://youtu.be/OvwsjVYWXnY
+```
+Zodiac voiceover
+```
+Uploaded at 3:44 pm; undetected
+```
+```
+Link: https://youtu.be/1n9xs-NFytA
+```
+Studio Ghibli
+```
+Uploaded at 7:08 pm; undetected
+```
+```
+Link: https://youtu.be/CJav88xVFsM
+```
+Original Fantasy
+```
+Uploaded at 7:08 pm; undetected
+```
+```
+Link: https://youtu.be/b64qqXPXmEk
+```
